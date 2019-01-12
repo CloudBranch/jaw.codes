@@ -1,0 +1,40 @@
+runtime: php72
+api_version: 1
+threadsafe: true
+
+default_expiration: "1h"
+
+handlers:
+- url: /css
+  static_dir: app/css
+
+- url: /images
+  static_dir: app/images
+
+- url: /js
+  static_dir: app/js
+
+- url: /static
+  static_dir: app/static
+
+- url: /
+  script: app/index.php
+  secure: always
+
+- url: /robots.txt
+  static_files: app/static/robots.txt
+  upload: app/static/robots.txt
+  secure: always
+
+- url: /humans.txt
+  static_files: static/humans.txt
+  upload: app/static/humans.txt
+  secure: always
+
+- url: /sitemap.xml
+  static_files: app/static/sitemap.xml
+  upload: app/static/sitemap.xml
+  secure: always
+
+- url: /.*
+  script: app/404.php
