@@ -1,0 +1,4 @@
+steps:
+- name: "gcr.io/jawcodes/github.com/cloudbranch/jaw.codes"
+  args: ["app", "deploy"]
+timeout: "1600s"
