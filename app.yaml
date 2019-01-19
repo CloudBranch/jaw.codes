@@ -1,6 +1,5 @@
 runtime: php72
 api_version: 1
-threadsafe: true
 
 default_expiration: "1h"
 
