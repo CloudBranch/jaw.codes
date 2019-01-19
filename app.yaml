@@ -1,9 +1,7 @@
 runtime: php55
+api_version: 1
 
 default_expiration: "1h"
-
-# error_handlers:
-# - file: app/404.php
 
 handlers:
 - url: /css
