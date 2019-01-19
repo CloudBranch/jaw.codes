@@ -1,8 +1,9 @@
-runtime: php72
-api_version: 1
-threadsafe: true
+runtime: php55
 
 default_expiration: "1h"
+
+# error_handlers:
+# - file: app/404.php
 
 handlers:
 - url: /css
@@ -17,9 +18,13 @@ handlers:
 - url: /static
   static_dir: app/static
 
-- url: /
-  script: app/index.php
+- url: /.*
+  script: index.php
   secure: always
+
+# - url: /contact
+#   script: app/contact.php
+#   secure: always
 
 - url: /robots.txt
   static_files: app/static/robots.txt
@@ -36,5 +41,6 @@ handlers:
   upload: app/static/sitemap.xml
   secure: always
 
-- url: /.*
-  script: app/404.php
+# - url: /.*
+#   script: app/404.php
+#   secure: always

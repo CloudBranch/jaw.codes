@@ -9,7 +9,7 @@
         }
 
         html {
-            color: #888;
+            color: #888888;
             display: table;
             font-family: sans-serif;
             height: 100%;
@@ -24,14 +24,40 @@
         }
 
         h1 {
-            color: #555;
+            color: #555555;
             font-size: 2em;
             font-weight: 400;
         }
 
+        h1:hover::before {
+            content: '*';
+        }
+
+        h1:hover::after {
+            content: '*';
+        }
+
         p {
-            margin: 0 auto;
+            margin: 2rem auto 1rem;
             width: 280px;
+        }
+
+        section {
+            padding: 3rem 0 5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #555555;
+            margin: 2rem 0 0 0;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        a:hover, a:active {
+            text-decoration: underline;
+            background-color: #3D6399;
         }
 
         @media only screen and (max-width: 280px) {
@@ -50,12 +76,13 @@
     </style>
 </head>
 <body>
+  <h1>404</h1>
   <h1>Page Not Found</h1>
   <p>Sorry, but the page you were trying to view does not exist.</p>
-  <div class="center-align" style="padding:3rem 0 5rem;">
+  <section>
 
-    <a href="/" style="color:#FFFFFF;background-color:#3D6399;margin:2rem 0 0 0;">Go Home</a>
+    <a href="/">Go Home</a>
 
-  </div>
+  </section>
 </body>
 </html>

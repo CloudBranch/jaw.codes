@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>JAW Codes</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Bree+Serif" rel="stylesheet">
+  </head>
+  <body>
+  <!--
+    Description: jaw.codes - launched 2019
+    Version: 1 (1.20.2019)
+    Author: Joshua Whalen (Copyright 2019)
+
+    Hi there, source inspector.
+
+    Fork the source on Github(https://github.com/CloudBranch/jaw.codes).
+
+    https://www.color-hex.com/color-palette/71125
+  -->
+
+    <main>
+
+      <h1>J. A. Whalen</h1>
+      
+      <p><span style="font-weight: bold;font-size: 1.8rem;color: #41C1DD;">H</span>ello, I'm <span style="border-bottom: 5px dotted #89E3F0;">J. A. W</span>halen a passionate Web Developer-Designer with a compulsion to continually improve. You can most likely find me tinkering with a Raspberry Pi, perusing the documentation for some framework, or slamming my fingers into my keyboard inside Visual Studio Code.</p>
+
+      <div class="timeLine">
+      </div>
+
+      <h1>Let's Code</h1>
+
+      <section>
+        <ul>
+          <li>
+            <a href="https://github.com/CloudBranch" target="_blank"><i class="fab fa-github"></i>Github</a>
+          </li>
+          <li>
+            <a href="https://gitlab.com/JoshuaWhalen" target="_blank"><i class="fab fa-gitlab"></i>Gitlab</a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/6349934/joshua-whalen" target="_blank"><i class="fab fa-stack-overflow"></i>Stackoverflow</a>
+          </li>
+        </ul> 
+      </section>
+
+      <!-- <p>Lorem ipsum dolor sit amet, accumsan consulatu similique has cu, duo vide eius cu. Ius in possit consectetuer voluptatibus, simul dissentias at pri. His eu dicta iusto. Deseruisse consequuntur eam no, an assum habemus iracundia eam, ad tollit impedit ullamcorper ius.</p> -->
+
+      <div class="timeLine"></div>
+
+      <h1>Let's Design</h1>
+
+      <section>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-dribbble"></i>Dribbble</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-behance"></i>hance</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-deviantart"></i>DeviantArt</a>
+            </li>
+          </ul> 
+        </section>
+
+      <!-- <p>Lorem ipsum dolor sit amet, accumsan consulatu similique has cu, duo vide eius cu. Ius in possit consectetuer voluptatibus, simul dissentias at pri. His eu dicta iusto. Deseruisse consequuntur eam no, an assum habemus iracundia eam, ad tollit impedit ullamcorper ius.</p> -->
+
+      <div class="timeLine"></div>
+
+      <h1>Let's Socialize</h1>
+
+      <section>
+       <ul>
+         <li>
+           <a href="https://www.linkedin.com/in/joshuawhalen/" target="_blank">Linked<i class="fab fa-linkedin-in"></i></a>
+         </li>
+         <li>
+            <a href="https://twitter.com/JoshuaWhalen94" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCLi6Fdl_I5G2UFuemYZcoOQ/" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
+            </li>
+       </ul> 
+      </section>
+
+      <!-- <p>Lorem ipsum dolor sit amet, accumsan consulatu similique has cu, duo vide eius cu. Ius in possit consectetuer voluptatibus, simul dissentias at pri. His eu dicta iusto. Deseruisse consequuntur eam no, an assum habemus iracundia eam, ad tollit impedit ullamcorper ius.</p> -->
+
+      <div class="timeLine2"></div>
+
+      <p>2019 - jaw.codes | Fork this site <a href="https://github.com/CloudBranch/jaw.codes" target="_blank" style="font-weight: bold;font-size: 1.4rem;border-bottom: 2px dotted #89E3F0;">here</a></p>
+
+    </main>
+
+    <script>
+
+function clickEffect(e){
+  var d=document.createElement("div");
+  d.className="clickEffect";
+  d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+  document.body.appendChild(d);
+  d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+}
+document.addEventListener('click',clickEffect);
+    </script>
+  </body>
+</html>
