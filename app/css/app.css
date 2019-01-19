@@ -50,9 +50,7 @@ ul {
 }
 
 li {
-  /* display: inline-block; */
   list-style: none;
-  /* margin-right: 1rem; */
 }
 
 .timeLine {
@@ -70,70 +68,30 @@ li {
 }
 
 div.clickEffect {
-position:fixed;
-box-sizing:border-box;
-border-style:solid;
-border-color:#41C1DD;
-border-radius:50%;
-animation:clickEffect 0.5s ease-out;
-z-index:1;
+  position: fixed;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #41C1DD;
+  border-radius: 50%;
+  animation: clickEffect 0.5s ease-out;
+  z-index: 1;
 }
 @keyframes clickEffect {
-0% {
-opacity: 1;
-width: 0.5em;
-height: 0.5em;
-margin: -0.25em;
-border-width: 0.5em;
-}
-100% {
-opacity:0.2;
-width: 15em;
-height: 15em;
-margin: -7.5em;
-border-width: 0.03em;
-}
-}
-
-
-
-
-
-/* @media only screen and (max-width: 600px) {
-  .hide-on-small-only, .hide-on-small-and-down {
-    display: none !important;
+  0% {
+    opacity: 1;
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.25em;
+    border-width: 0.5em;
+  }
+  100% {
+    opacity:0.2;
+    width: 15em;
+    height: 15em;
+    margin: -7.5em;
+    border-width: 0.03em;
   }
 }
-
-@media only screen and (max-width: 992px) {
-  .hide-on-med-and-down {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .hide-on-med-and-up {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-  .hide-on-med-only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 993px) {
-  .hide-on-large-only {
-    display: none !important;
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  .hide-on-extra-large-only {
-    display: none !important;
-  }
-} */
 
 @media only screen and (min-width: 1201px) {
   /* EXTRA LARGE */
@@ -144,7 +102,7 @@ border-width: 0.03em;
   }
   p {
     margin: 2rem 6rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -157,7 +115,7 @@ border-width: 0.03em;
   }
   p {
     margin: 2rem 5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -186,21 +144,3 @@ border-width: 0.03em;
     font-size: 1.4rem;
   }
 }
-
-/* @media only screen and (min-width: 601px) {
-  .show-on-medium-and-up {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .show-on-medium-and-down {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .center-on-small-only {
-    text-align: center;
-  }
-} */

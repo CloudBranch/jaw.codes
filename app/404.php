@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>JAW Codes | 404</title>
+    <meta name="theme-color" content="#D7F3F9">
     <style>
 
         * {
@@ -57,7 +60,7 @@
 
         a:hover, a:active {
             text-decoration: underline;
-            background-color: #3D6399;
+            background-color: #41C1DD;
         }
 
         @media only screen and (max-width: 280px) {
