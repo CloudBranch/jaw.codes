@@ -1,6 +1,7 @@
 {
     "name": "JAW Codes",
     "short_name": "JAW",
+    "description": "JAW Codes the personal site of Joshua Whalen.",
     "icons": [
       {
         "src": "../images/icons-192.png",

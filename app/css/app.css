@@ -53,6 +53,12 @@ li {
   list-style: none;
 }
 
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
 .timeLine {
   display: inline-block;
   height: 150px;
