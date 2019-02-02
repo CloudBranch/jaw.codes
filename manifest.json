@@ -1,0 +1,21 @@
+{
+  "short_name": "JAW",
+  "name": "JAW Codes",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#D7F3F9",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#D7F3F9"
+}
