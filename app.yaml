@@ -31,6 +31,6 @@ handlers:
   upload: app/static/sitemap.xml
   secure: always
 
-  - url: /.*
+- url: /.*
   script: index.php
   secure: always
