@@ -31,6 +31,11 @@ handlers:
   upload: app/static/sitemap.xml
   secure: always
 
+- url: /manifest.json
+  static_files: app/static/manifest.json
+  upload: app/static/manifest.json
+  secure: always
+
 - url: /.*
   script: index.php
   secure: always
