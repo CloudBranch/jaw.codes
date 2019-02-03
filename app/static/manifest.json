@@ -14,9 +14,9 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/jawcodes/?source=pwa",
+    "start_url": "/?source=pwa",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "scope": "/jawcodes/",
+    "scope": "/",
     "theme_color": "#3D6399"
   }
