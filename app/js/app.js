@@ -18,7 +18,7 @@ document.addEventListener('click', clickEffect);
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('app/js/sw.js')
+           .register('/js/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 
