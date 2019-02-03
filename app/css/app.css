@@ -54,9 +54,23 @@ li {
 }
 
 .add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: #41C1DD;
+  background-color:rgba(0, 0, 0, 0);
+  border: 5px dotted #89E3F0;
+  transition: background-color 0.4s linear, color 0.4s linear;
+}
+
+.add-button:hover, .add-button:active {
+  color: #D7F3F9;
+  background-color: #89E3F0;
+  border: 5px dotted #D7F3F9;
 }
 
 .timeLine {
