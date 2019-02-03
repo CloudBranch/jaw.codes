@@ -12,6 +12,8 @@ handlers:
 
 - url: /js
   static_dir: app/js
+  http_headers:
+    Service-Worker-Allowed: /
 
 - url: /static
   static_dir: app/static
