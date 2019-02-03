@@ -6,12 +6,12 @@
       {
         "src": "../images/icons-192.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "120x120"
       },
       {
         "src": "../images/icons-512.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "480x480"
       }
     ],
     "start_url": "/?source=pwa",
