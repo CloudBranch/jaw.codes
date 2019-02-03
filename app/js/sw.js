@@ -3,9 +3,8 @@ self.addEventListener('install', function(e) {
     caches.open('site-store').then(function(cache) {
       return cache.addAll([
         '/',
-        '/app/index.html',
-        '/app/js/app.js',
-        '/app/css/app.css'
+        '/js/app.js',
+        '/css/app.css'
       ]);
     })
   );
