@@ -1,5 +1,5 @@
 function clickEffect(e) {
-  
+
   var d = document.createElement("div");
   d.className = "clickEffect";
   d.style.top = e.clientY + "px";
@@ -18,7 +18,7 @@ document.addEventListener('click', clickEffect);
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('../sw.js')
+           .register('app/js/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 
